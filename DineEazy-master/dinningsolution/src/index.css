@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: rgb(30,32,38);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color:#282c34;
+
+}
+*::-webkit-scrollbar {
+  width: 4px;  height: 4px;   
+}
+
+*::-webkit-scrollbar-track {
+background-color:#282c34
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:white;
+}
