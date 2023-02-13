@@ -231,10 +231,6 @@ export const counterSlice = createSlice({
       state.addedItems = state.menuList.filter((menu) => menu.quantity > 0);
     },
     searchItems: (state, action) => {
-      let filtered = state.menuList.filter((menu) =>
-        menu.itemName.toLowerCase().includes(action.payload.toLowerCase())
-      );
-      let result = replaceObjects(state.searchList, filtered, "itemName");
 
       if (action.payload === "") {
         state.menuList = result;
