@@ -1,3 +1,12 @@
+# Application Development Info
+
+Design Library :- Material UI
+Code Base Tech :- React.js, Redux, Core Javascript, CSS, HTML
+Hoisting services :- Google Firebase
+3rd party library :- React-Router-Dom v6 for Routing, React-Reveal for animation
+Unit Test : React testing Library with jest
+UI/UX Design :- Ideation by Prateek jain
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
