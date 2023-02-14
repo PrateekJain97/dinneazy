@@ -177,3 +177,35 @@ padding:20px;
   margin-bottom:5px
 }
 
+@media screen and (min-width: 570px )  {
+  .HeroImage img{
+  width:30vw;
+  }
+  .HerHeading{
+    display: flex;
+    flex-direction: row;
+  }
+  .HerHeadingText{
+    width:30vw
+  }
+  .footerPagehead img{
+    width:30vw;
+  }
+  .footerPagehead{
+    font-family: 'Roboto Slab', serif;
+float:left;
+margin:0 30px
+  }
+ .footerPage{
+  width:70vw;
+margin:0 auto
+ }
+
+ .dishCard{
+  justify-content:space-between
+ }
+}
+.footerPagehead{
+  font-family: 'Roboto Slab', serif;
+}
+
