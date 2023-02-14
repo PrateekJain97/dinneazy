@@ -232,12 +232,6 @@ export const counterSlice = createSlice({
     },
     searchItems: (state, action) => {
 
-      if (action.payload === "") {
-        state.menuList = result;
-      } else {
-        state.menuList = filtered;
-      }
-      state.loader = false
     },
     toggle: (state, action) => {
       state.themeToggle = action.payload;
